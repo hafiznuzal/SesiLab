@@ -80,9 +80,8 @@
  
  
 
-                            <button type="submit" class="btn btn-success">Submit Button</button>
-                            <button type="reset" class="btn btn-default">Reset Button</button>
-
+                            <button class="btn btn-lg btn-success btn-block" id="submitLogin"type="submit">Log in</button>
+                           
                         </form>
 
                     </div>
