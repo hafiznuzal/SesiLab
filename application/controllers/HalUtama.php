@@ -19,24 +19,35 @@ class HalUtama extends CI_Controller {
 		$this->load->view('index');	
 		
 	}
-	function upload($NO_PEMILIH)
+	function upload()
 	{
 		
 		$this->load->view('navigate');
 		$this->load->view('upload');
 		
 	}
-	function download($no_ktp)
+	function download()
 	{
 		$this->load->view('navigate');
 		$this->load->view('download');	
 	}
 
-	function manajemen($no_ktp)
+	function tambah_kelas()
 	{
 		$this->load->view('navigate');
-		$this->load->view('manajemen');	
+		$this->load->view('tambah_kelas');	
+	}
+	function tambah_praktikan()
+	{
+		$this->load->view('navigate');
+		$this->load->view('tambah_praktikan');	
 	}	
+
+	function tambah_asisten()
+	{
+		$this->load->view('navigate');
+		$this->load->view('tambah_asisten');	
+	}		
 
 }
 ?>
